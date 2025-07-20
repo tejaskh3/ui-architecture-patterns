@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Master detail design pattern</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Email Client - Master Detail Pattern</h1>
+      <div class="header-social">
+        <span class="follow-text">Follow:</span>
+        <a href="https://github.com/tejaskh3" target="_blank" rel="noopener noreferrer">
+          <span class="social-icon">📧</span>
+          tejaskh3
+        </a>
+        <a href="https://x.com/tasshuu_" target="_blank" rel="noopener noreferrer">
+          <span class="social-icon">🐦</span>
+          tasshuu_
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="master-panel">
+      <div class="panel-header">
+        <h3>Inbox</h3>
+        <div id="loading" class="loading">Loading emails...</div>
+      </div>
+      <div id="email-list" class="email-list">
+        <!-- Email list will be populated by JavaScript -->
+      </div>
+    </div>
+    
+    <div class="detail-panel">
+      <div id="email-detail" class="email-detail">
+        <div class="no-selection">
+          <h3>Select an email to read</h3>
+          <p>Choose an email from the list to view its contents</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
